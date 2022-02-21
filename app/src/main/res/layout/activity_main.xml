@@ -5,26 +5,28 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="15pt"
     tools:context=".MainActivity">
 
     <EditText
         android:id="@+id/editTextTextPersonName2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10pt"
+        android:layout_weight="1"
         android:background="@color/inputbox"
         android:ems="10"
         android:gravity="right"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:paddingTop="15pt"
+        android:paddingTop="20pt"
         android:text="@string/_0"
         android:textColor="@color/operations"
-        android:textSize="40sp" />
+        android:textSize="60sp" />
 
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="0"
         android:gravity="center">
 
         <TableRow
@@ -36,36 +38,44 @@
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
+                android:layout_weight="1"
                 android:backgroundTint="@color/main_button"
                 android:text="@string/ac"
-                android:textColor="@android:color/white" />
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
 
             <Button
                 android:id="@+id/button12"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
+                android:layout_weight="1"
                 android:backgroundTint="@color/operation_button"
                 android:text="@string/plus_or_minus"
-                android:textColor="@android:color/white" />
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
 
             <Button
                 android:id="@+id/button11"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
+                android:layout_weight="1"
                 android:backgroundTint="@color/operation_button"
                 android:text="@string/percent"
-                android:textColor="@android:color/white" />
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
 
             <Button
                 android:id="@+id/button10"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
+                android:layout_weight="1"
                 android:backgroundTint="@color/operations"
                 android:text="@string/divide"
-                android:textColor="@android:color/white" />
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
         </TableRow>
 
         <TableRow
@@ -77,33 +87,40 @@
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
+                android:layout_weight="1"
                 android:backgroundTint="@color/number_buttons"
                 android:text="@string/_7"
-                android:textColor="@android:color/white" />
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
 
             <Button
                 android:id="@+id/button16"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
+                android:layout_weight="1"
                 android:backgroundTint="@color/number_buttons"
                 android:text="@string/_8"
-                android:textColor="@android:color/white" />
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
 
             <Button
                 android:id="@+id/button15"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
+                android:layout_weight="1"
                 android:backgroundTint="@color/number_buttons"
                 android:text="@string/_9"
-                android:textColor="@android:color/white" />
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
 
             <Button
                 android:id="@+id/button14"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
+                android:layout_weight="1"
                 android:backgroundTint="@color/operations"
                 android:text="@string/x"
                 android:textColor="@android:color/white" />
@@ -118,24 +135,29 @@
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
+                android:layout_weight="1"
                 android:backgroundTint="@color/number_buttons"
                 android:text="@string/_4"
-                android:textColor="@android:color/white" />
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
 
             <Button
                 android:id="@+id/button20"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
+                android:layout_weight="1"
                 android:backgroundTint="@color/number_buttons"
                 android:text="@string/_5"
-                android:textColor="@android:color/white" />
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
 
             <Button
                 android:id="@+id/button19"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
+                android:layout_weight="1"
                 android:backgroundTint="@color/number_buttons"
                 android:text="@string/_6"
                 android:textColor="@android:color/white" />
@@ -145,9 +167,11 @@
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
+                android:layout_weight="1"
                 android:backgroundTint="@color/operations"
                 android:text="@string/plus"
-                android:textColor="@android:color/white" />
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
         </TableRow>
 
         <TableRow
@@ -159,53 +183,63 @@
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
+                android:layout_weight="1"
                 android:backgroundTint="@color/number_buttons"
                 android:text="@string/_1"
-                android:textColor="@android:color/white" />
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
 
             <Button
                 android:id="@+id/button24"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
+                android:layout_weight="1"
                 android:backgroundTint="@color/number_buttons"
                 android:text="@string/_2"
-                android:textColor="@android:color/white" />
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
 
             <Button
                 android:id="@+id/button23"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
+                android:layout_weight="1"
                 android:backgroundTint="@color/number_buttons"
                 android:text="@string/_3"
-                android:textColor="@android:color/white" />
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
 
             <Button
                 android:id="@+id/button22"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
+                android:layout_weight="1"
                 android:backgroundTint="@color/operations"
                 android:text="@string/minus"
-                android:textColor="@android:color/white" />
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
         </TableRow>
     </TableLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="1"
         android:orientation="horizontal">
 
         <Button
             android:id="@+id/button9"
             style="?android:attr/buttonBarButtonStyle"
-            android:layout_width="60pt"
+            android:layout_width="66pt"
             android:layout_height="30pt"
             android:layout_weight="1"
             android:backgroundTint="@color/number_buttons"
             android:text="@string/_0"
-            android:textColor="@android:color/white" />
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
 
         <Button
             android:id="@+id/button8"
@@ -215,7 +249,8 @@
             android:layout_weight="1"
             android:backgroundTint="@color/operation_button"
             android:text="@string/decimal"
-            android:textColor="@android:color/white" />
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
 
         <Button
             android:id="@+id/button7"
@@ -225,7 +260,8 @@
             android:layout_weight="1"
             android:backgroundTint="@color/main_button"
             android:text="@string/equal"
-            android:textColor="@android:color/white" />
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
     </LinearLayout>
 
 </LinearLayout>
