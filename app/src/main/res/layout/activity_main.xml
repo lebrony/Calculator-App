@@ -34,45 +34,49 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/button13"
+                android:id="@+id/buttonClear"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:backgroundTint="@color/main_button"
+                android:onClick="numberEvent"
                 android:text="@string/ac"
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/button12"
+                android:id="@+id/buttonNegativePlus"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:backgroundTint="@color/operation_button"
+                android:onClick="numberEvent"
                 android:text="@string/plus_or_minus"
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/button11"
+                android:id="@+id/buttonPercent"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:backgroundTint="@color/operation_button"
+                android:onClick="numberEvent"
                 android:text="@string/percent"
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/button10"
+                android:id="@+id/buttonDevide"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:backgroundTint="@color/operations"
+                android:onClick="numberEvent"
                 android:text="@string/divide"
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />
@@ -83,34 +87,37 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/button17"
+                android:id="@+id/button07"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:backgroundTint="@color/number_buttons"
+                android:onClick="numberEvent"
                 android:text="@string/_7"
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/button16"
+                android:id="@+id/button08"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:backgroundTint="@color/number_buttons"
+                android:onClick="numberEvent"
                 android:text="@string/_8"
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/button15"
+                android:id="@+id/button09"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:backgroundTint="@color/number_buttons"
+                android:onClick="numberEvent"
                 android:text="@string/_9"
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />
@@ -122,6 +129,7 @@
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:backgroundTint="@color/operations"
+                android:onClick="numberEvent"
                 android:text="@string/x"
                 android:textColor="@android:color/white" />
         </TableRow>
@@ -131,34 +139,37 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/button21"
+                android:id="@+id/button04"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:backgroundTint="@color/number_buttons"
+                android:onClick="numberEvent"
                 android:text="@string/_4"
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/button20"
+                android:id="@+id/button05"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:backgroundTint="@color/number_buttons"
+                android:onClick="numberEvent"
                 android:text="@string/_5"
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/button19"
+                android:id="@+id/button06"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:backgroundTint="@color/number_buttons"
+                android:onClick="numberEvent"
                 android:text="@string/_6"
                 android:textColor="@android:color/white" />
 
@@ -169,6 +180,7 @@
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:backgroundTint="@color/operations"
+                android:onClick="numberEvent"
                 android:text="@string/plus"
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />
@@ -179,34 +191,37 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/button25"
+                android:id="@+id/button01"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:backgroundTint="@color/number_buttons"
+                android:onClick="numberEvent"
                 android:text="@string/_1"
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/button24"
+                android:id="@+id/button02"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:backgroundTint="@color/number_buttons"
+                android:onClick="numberEvent"
                 android:text="@string/_2"
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/button23"
+                android:id="@+id/button03"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:backgroundTint="@color/number_buttons"
+                android:onClick="numberEvent"
                 android:text="@string/_3"
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />
@@ -218,6 +233,7 @@
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:backgroundTint="@color/operations"
+                android:onClick="numberEvent"
                 android:text="@string/minus"
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />
@@ -231,34 +247,37 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/button9"
+            android:id="@+id/button0"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="66pt"
             android:layout_height="30pt"
             android:layout_weight="1"
             android:backgroundTint="@color/number_buttons"
+            android:onClick="numberEvent"
             android:text="@string/_0"
             android:textColor="@android:color/white"
             android:textSize="18sp" />
 
         <Button
-            android:id="@+id/button8"
+            android:id="@+id/buttonDot"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="30pt"
             android:layout_height="30pt"
             android:layout_weight="1"
             android:backgroundTint="@color/operation_button"
+            android:onClick="numberEvent"
             android:text="@string/decimal"
             android:textColor="@android:color/white"
             android:textSize="18sp" />
 
         <Button
-            android:id="@+id/button7"
+            android:id="@+id/buttonEqual"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="30pt"
             android:layout_height="30pt"
             android:layout_weight="1"
             android:backgroundTint="@color/main_button"
+            android:onClick="numberEvent"
             android:text="@string/equal"
             android:textColor="@android:color/white"
             android:textSize="18sp" />
